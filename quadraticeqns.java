@@ -32,7 +32,7 @@ class quadraticSolution
         
      case 2:
         System.out.println("Roots are equal.");
-        root1 = (-b) / (2*a);
+        root1 = (float)(-b) / (2*a);
         System.out.print("Roots are: "+root1);
         break;
       case 3:
