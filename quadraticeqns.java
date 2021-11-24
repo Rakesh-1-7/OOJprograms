@@ -37,7 +37,7 @@ class quadraticSolution
         break;
       case 3:
         System.out.println("Roots are imaginary.");
-        root1 = ( -b )/ (2*a);
+        root1 = (float)( -b )/ (2*a);
         root2 = (float)(Math.sqrt(-dis) ) / (2*a);
         System.out.println("Roots are : \n"+root1+"+i"+root2 );
         System.out.println(root1+"-i"+root2 );
