@@ -45,7 +45,10 @@ class start
         complexNumbers res = new complexNumbers(0, 0);
 
         res = complexNumbers.add(a,b);
-        System.out.print("\nSum of the numbers is "+res.real+"+i"+res.img);
+        if(res.img > 0)
+        System.out.print("\nDifference of the numbers is "+res.real+"+i"+res.img);
+        else
+        System.out.print("\nDifference of the numbers is "+res.real+"-i"+(-res.img));
         res = complexNumbers.sub(a,b);
         if(res.img > 0)
         System.out.print("\nDifference of the numbers is "+res.real+"+i"+res.img);
